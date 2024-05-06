@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1a6154-5ce8-4dff-8afb-4004b99281a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai-tap/sya.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai-tap/tra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/Phone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/c1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/c3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/c4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai-tap/baitap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai-tap/sya.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai-tap/tra.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,8 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.c1.html.executor": "Run",
+    "JavaScript Debug.c3.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -71,6 +79,7 @@
       <workItem from="1714932518487" duration="53000" />
       <workItem from="1714932689445" duration="399000" />
       <workItem from="1714933216601" duration="88000" />
+      <workItem from="1714960860695" duration="7214000" />
     </task>
     <servers />
   </component>

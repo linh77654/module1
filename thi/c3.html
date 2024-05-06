@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function isPrime(num) {
+        if (num <= 1) return false;
+        if (num <= 3) return true;
+        if (num % 2 === 0 || num % 3 === 0) return false;
+        for (let i = 5; i * i <= num; i += 6) {
+            if (num % i === 0 || num % (i + 2) === 0) return false;
+        }
+        return true;
+    }
+
+    function findPrimesInArray(arr) {
+        let primes = arr.filter(isPrime);
+        primes.sort((a, b) => a - b);
+        return primes;
+    }
+
+    function inputAndFindPrimes() {
+        let input = prompt("Nhập các số nguyên, cách nhau bằng dấu phẩy (ví dụ: 1, 2, 3):");
+        let inputArray = input.split(",").map(Number);
+        let result = findPrimesInArray(inputArray);
+        console.log("Kết quả:", result.join(", "));
+    }
+
+    inputAndFindPrimes();
+
+</script>
+
 </body>
 </html>

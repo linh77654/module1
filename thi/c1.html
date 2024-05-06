@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Difference</title>
 </head>
 <body>
-$END$
+<script>
+    function calculateDifference(arr) {
+        let sumEven = 0;
+        let sumOdd = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                sumEven += arr[i];
+            } else {
+                sumOdd += arr[i];
+            }
+        }
+        return sumEven - sumOdd;
+    }
+    function displayResult() {
+        const inputStr = prompt("Nhập mảng số nguyên, cách nhau bằng dấu phẩy:");
+        const arr = inputStr.split(',').map(Number);
+        if (arr.length <= 20) {
+            console.log("Danh sách các phần tử của mảng:", arr);
+            const difference = calculateDifference(arr);
+            console.log("Kết quả = (tổng các số chẵn - tổng các số lẻ) =", difference);
+        } else {
+            console.log("Số lượng phần tử nhập vào vượt quá 20!");
+        }
+    }
+    displayResult();
+</script>
 </body>
 </html>
